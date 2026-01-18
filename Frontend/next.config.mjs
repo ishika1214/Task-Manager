@@ -10,9 +10,9 @@ const nextConfig = {
     unoptimized: true,
   },
   output: "export", // ✅ enable static export
-  trailingSlash: true, // ✅ good for GitHub Pages
+  // trailingSlash: true, // ✅ good for GitHub Pages
   basePath: "/Task-Manager",
-  assetPrefix: "/Task-Manager/", // ✅ your repo name
+  assetPrefix: "/Task-Manager" // ✅ your repo name
 };
 
 export default nextConfig;
