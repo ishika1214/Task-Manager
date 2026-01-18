@@ -4,7 +4,7 @@ import { CheckCircle, Users, Calendar, MessageSquare, BarChart3, Shield } from "
 import Link from "next/link"
 import FeatureShowcase from "@/components/home/feature-showcase"
 import HeroAnimation from "@/components/home/hero-animation"
-import '../styles/globals.css';
+import './globals.css';
 
 export default function LandingPage() {
   const features = [
